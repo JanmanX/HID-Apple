@@ -1,7 +1,7 @@
 HID-Apple
 =========
 
-A modified kernel module for Apple Wireless Keyboards to swap the fn and left ctrl and change to eject-cd key to delete.
+A modified Linux kernel module for Apple Wireless Keyboards to swap the **fn** and **left ctrl** and change to **eject-cd** key to **delete**.
 
 
 Loading the module
