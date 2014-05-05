@@ -10,15 +10,14 @@ You can either compile the module yourself or use the pre-compiled *.ko file sup
 You load the module by typing this in terminal:
 
 // Unload the current module
-sudo rmmod hid_apple  
+`sudo rmmod hid_apple`
 
 // Load the current module (temporary - for testing)
-sudo insmod ./hid-apple.ko
+`sudo insmod ./hid-apple.ko`
 
 // For permanent effect
-sudo cp hid-apple.ko /lib/modules/$(uname -r)/kernel/drivers/hid      
-sudo update-initramfs -u
-
+`sudo cp hid-apple.ko /lib/modules/$(uname -r)/kernel/drivers/hid`   
+`sudo update-initramfs -u`
 
 Compiling
 ---------
