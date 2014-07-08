@@ -2,13 +2,14 @@ HID-Apple
 =========
 
 A modified Linux kernel module for Apple Wireless Keyboards to swap the **fn** and **left ctrl** and change the **eject-cd** key to **delete**.
-Compiled with Linux kernel version 3.13 (Ubuntu 14.04 LTS).
 
 
 Loading the module
 ------------------
-You can either compile the module yourself or use the pre-compiled *.ko file supplied.
 You load the module by typing this in terminal:
+
+- Compile the new module
+`./build.sh`
 
 - Unload the current module
 `sudo rmmod hid_apple`
@@ -17,9 +18,4 @@ You load the module by typing this in terminal:
 `sudo insmod ./hid-apple.ko`
 
 - For permanent effect
-`sudo cp hid-apple.ko /lib/modules/$(uname -r)/kernel/drivers/hid`   
-`sudo update-initramfs -u`
-
-Compiling
----------
-Place the hid-apple.c file in the kernel source version 3.13 and compile the kernel.
+`./install.sh`

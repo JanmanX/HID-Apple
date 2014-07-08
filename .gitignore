@@ -1,0 +1,10 @@
+.hid-apple.ko.cmd
+.hid-apple.mod.o.cmd
+.hid-apple.o.cmd
+Module.symvers
+hid-apple.ko
+hid-apple.mod.c
+hid-apple.mod.o
+hid-apple.o
+modules.order
+.tmp_versions
