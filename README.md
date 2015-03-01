@@ -1,8 +1,10 @@
 !!!!! NOTE !!!!!!
 ========
 Working, but ugly, un-maintained code!
+
 Please check out this project:
 https://github.com/free5lot/hid-apple-patched
+
 There, you should find a much better version of the module with the same 
 functionality.
 
